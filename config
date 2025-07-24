@@ -1,0 +1,24 @@
+# theme = "tokyonight"
+# theme = "Solarized Dark - Patched"
+# theme = "matrix"
+theme = "synthwave"
+# theme = "vesper"
+# theme = "Batman"
+# theme = "DoomOne"
+
+font-size = 14
+font-family = "JetBrains Mono"
+
+custom-shader = "/Users/pourquoi/.config/ghostty/galaxy.glsl"
+# custom-shader = "/Users/pourquoi/.config/ghostty/drunkard.glsl"
+# custom-shader = "/Users/pourquoi/.config/ghostty/glitchy.glsl"
+# custom-shader = "/Users/pourquoi/.config/ghostty/glitchy2.glsl"
+
+# cursor-color = "#FFFFFF"
+cursor-style = "bar"
+# cursor-style-blink = true
+macos-option-as-alt = "right"
+minimum-contrast = 1.1
+background-opacity = 0.95
+# window-decoration = false
+background-blur = 10
