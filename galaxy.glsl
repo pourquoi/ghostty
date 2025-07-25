@@ -77,7 +77,8 @@ void mainImage(out vec4 fragColor, in vec2 fragCoord) {
   cameraPosition.xz *= rotationMatrixXZ;
   cameraPosition.yz *= rotationMatrixYZ;
 
-  float zoomOffset = (timeElapsed - 3311.0) * speedAdjustment;
+  //float zoomOffset = (timeElapsed - 3311.0) * speedAdjustment;
+  float zoomOffset = (timeElapsed + 3300) * speedAdjustment;
   cameraPosition += forwardVector * zoomOffset;
   float sampleOffset = mod(zoomOffset, stepSize);
   float normalizedSampleOffset = sampleOffset / stepSize;

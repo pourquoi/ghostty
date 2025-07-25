@@ -19,6 +19,6 @@ cursor-style = "bar"
 # cursor-style-blink = true
 macos-option-as-alt = "right"
 minimum-contrast = 1.1
-background-opacity = 0.95
+# background-opacity = 0.95
 # window-decoration = false
 background-blur = 10
